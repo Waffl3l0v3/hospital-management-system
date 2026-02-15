@@ -1,1 +1,11 @@
 @import "tailwindcss";
+@theme {
+  --color-primary: #5f6FFF;
+}
+.active hr{ /*gives underline under active page in navbar*/
+    @apply block
+}
+
+::-webkit-scrollbar {
+  @apply hidden
+}
